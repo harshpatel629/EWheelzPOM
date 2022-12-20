@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="EwheelzAutomation.ViewRoutes">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- EwheelzAutomation.ViewRoutes -->
+      <class name="EwheelzAutomation.Book">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- EwheelzAutomation.Book -->
+      <class name="EwheelzAutomation.Testimonials">
+        <methods>
+          <include name="GiveTestimonial"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- EwheelzAutomation.Testimonials -->
+      <class name="EwheelzAutomation.Cancel">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- EwheelzAutomation.Cancel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
